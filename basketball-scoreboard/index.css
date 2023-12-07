@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(Basketballbackground.png);
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.score {
+    background-color: black;
+    width: 65px;
+    height: 65px;
+    border-radius: 3px;
+}
+
+#left-score, #right-score {
+    color: greenyellow;
+    font-size: 50px;   
+    }
+    
+span {
+    display: inline-block;
+    text-align: center;
+}
+
+.Increment-btn {
+    width: 50px;
+    height: 40px;
+    border: none; 
+    border-radius: 3px;
+    Background-color: brown;
+    color: white;
+}
+
+.increment-btn-container {
+    padding-top: 150px;
+    
+}
+
+.scoreboard {
+    padding-left: 30%;
+}
+
+#reset-btn {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/component-usage/reset-16.png");
+    height: 50px;
+    width: 50px;
+    background-size:cover;
+    border: none;
+    background-color: transparent;
+}
+
+#reset-btn-container {
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#save-btn {
+    
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2550/2550221.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    border: none;
+}
+#previous-games-el {
+    display: flex;
+    justify-content: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: whitesmoke;
+}

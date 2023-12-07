@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div>
+                <div class="scoreboard">
+                    <h3>HOME</h3>
+                    <span id="left-score" class="score">0</span>
+                </div>
+                <div class="increment-btn-container">
+                    <button class="Increment-btn" id="left-one" onclick="addOneLeft()">+1</button>
+                    <button class="Increment-btn" id="left-two" onclick="addTwoLeft()">+2</button>
+                    <button class="Increment-btn" id="left-three" onclick="addThreeLeft()">+3</button>
+                </div>
+            </div>
+            <div id="reset-btn-container">
+            <button id="reset-btn" onclick="resetScore()"></button>
+            <button id="save-btn" onclick="saveScore()"></button>
+            </div>
+            <div>
+                <div class="scoreboard">
+                    <h3>GUEST</h3>
+                    <span id="right-score" class="score">0</span>
+                </div>
+                <div class="increment-btn-container">
+                    <button class="Increment-btn" id="right-one" onclick="addOneRight()">+1</button>
+                    <button class="Increment-btn" id="right-two" onclick="addTwoRight()">+2</button>
+                 <button class="Increment-btn" id="right-three" onclick="addThreeRight()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="previous-games-container">
+            <h3 id="previous-games-el">Previous Games: </h3>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
