@@ -45,7 +45,8 @@ span {
 }
 
 .scoreboard {
-    padding-left: 30%;
+    padding-left: 15%;
+    padding-right: 20%;
 }
 
 #reset-btn {
